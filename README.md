@@ -35,7 +35,7 @@ Install-Package DateTimeExtensions
 
 Here are some examples of what you can do with DateTimeExtensions:
 
-```csharp
+``` csharp
 using DateTimeExtensions;
 
 // Add 5 working days to a date
@@ -72,7 +72,7 @@ Don't see your culture? Contributions are welcome!
 
 You can export holidays to various calendar formats:
 
-```csharp
+``` csharp
 var exporter = ExportHolidayFormatLocator.LocateByType(ExportType.OfficeHolidays);
 exporter.Export(new WorkingDayCultureInfo("en-US"), 2024, textWriter);
 ```
